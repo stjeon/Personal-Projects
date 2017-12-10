@@ -1,0 +1,13 @@
+
+.head-title{
+  color: black;
+  font-family: "American Typewriter";
+  text-align: center;
+}
+
+.container{
+  background-image: url("http://site.steubenvilleconferences.com/assets/background_images/TorontoBG.jpg");
+  height:100%;
+  width:100%;
+  background-repeat: no-repeat;
+}
