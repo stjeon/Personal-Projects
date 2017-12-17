@@ -4,12 +4,14 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
