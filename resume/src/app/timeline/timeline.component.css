@@ -1,6 +1,8 @@
 .img-responsive{
-
+  min-height: 100%;
+  height: auto;
 }
+
 .fa-github{
   width: 250px;
 }
