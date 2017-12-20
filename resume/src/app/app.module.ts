@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavComponent } from './nav/nav.component';
     AppComponent,
     HeaderComponent,
     TimelineComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
