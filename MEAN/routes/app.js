@@ -1,17 +1,25 @@
 var express = require('express');
 var router = express.Router();
+var User = require('../models/user');
 
 router.get('/', function (req, res, next) {
-    res.render('index');
+    res.render('node');
 });
 
-router.get('/message/:msg', function (req, res, next) {//:msg is data retrieved from elsewhere
-    res.render('node', {message: req.params.msg});
-});
 
-router.post('/message', function(req, res, next){
-var message = req.body.message;
-res.redirect('/message/' + message);
+router.post('/', function(req, res, next){
+var email = req.body.email;
+var user = new User(
+    {
+        firstName: 'Stephen',
+        lastName: 'Jeon',
+        password: 'password',
+        email: email
+    }
+);
+user.save();//save data to mongo
+
+res.redirect('/');
 });
 
 module.exports = router;
