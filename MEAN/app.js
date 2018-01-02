@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var appRoutes = require('./routes/app');
 
 var app = express();
-mongoose.connect('localhost:27017/mean'); //establish mongo connection
+mongoose.connect('mongodb://localhost/mean'); //establish mongo connection
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
