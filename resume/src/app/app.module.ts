@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { SkillsExperienceComponent } from './skills-experience/skills-experience.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     TimelineComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    SkillsExperienceComponent
   ],
   imports: [
     BrowserModule,
