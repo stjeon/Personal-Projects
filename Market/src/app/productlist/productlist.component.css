@@ -1,0 +1,18 @@
+
+
+.item-list{
+  list-style: none;
+}
+
+.list-items{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: flex-end;
+
+}
+
+.item-img{
+  height: 150px;
+  width: 150px;
+}

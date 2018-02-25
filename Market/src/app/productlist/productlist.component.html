@@ -1,0 +1,12 @@
+<div class="list-items">
+  <div class="list-item" *ngFor="let item of data">
+    <ul class="item-list">
+      <li class="item-img"><img class="item-img" src={{item.img}}></li>
+   <li class="item-name">{{item.name}}</li>
+      <li class="item-price">${{item.price}}</li>
+      <li><a routerLink="./details/{{item.id}}">Details</a> </li>
+    </ul>
+  </div>
+</div>
+
+
