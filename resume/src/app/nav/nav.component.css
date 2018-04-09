@@ -2,6 +2,14 @@ ul.nav-pills {
   left: 20px;
   top:20px;
   position: fixed;
+  font: Georgia;
+  opacity: 0.5;
+}
+ul.nav-pills a{
+  color: black;
+}
+ul.nav-pills:hover{
+  opacity: 1.0;
 }
 
 

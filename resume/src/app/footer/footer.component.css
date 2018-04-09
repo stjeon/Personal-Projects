@@ -1,9 +1,10 @@
 .footer {
   left: 0;
   bottom: 0;
-  height: 50px;
+  height: 50%;
   width: 100%;
   background-color: grey;
   color: white;
   text-align: center;
+  font: Georgia;
 }
